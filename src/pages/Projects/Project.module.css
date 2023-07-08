@@ -1,0 +1,69 @@
+.container_projects {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.heading_project {
+  color: white;
+  position: absolute;
+  top: 0;
+  font-size: 3.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.project_wrapper {
+  display: flex;
+  overflow-x: auto;
+}
+.project_wrapper::-webkit-scrollbar {
+  display: none;
+}
+.project_box {
+  min-height: 22rem;
+  position: relative;
+  min-width: 20rem;
+  background-color: #b692e5;
+  margin-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+.project_img {
+  height: auto;
+  width: 19rem;
+  margin-top: -0.5rem;
+  transition: 300ms ease-in-out;
+}
+.project_img:hover {
+  transform: scale(1.15);
+  z-index: 1;
+}
+.heading {
+  margin-top: -1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.git {
+  position: absolute;
+  left: 3rem;
+  bottom: 0.2rem;
+  cursor: pointer;
+  font-size: 2rem;
+  color: white;
+}
+.git:hover {
+  color: black;
+}
+.prev {
+  position: absolute;
+  bottom: 0.3rem;
+  cursor: pointer;
+  right: 2.5rem;
+  color: black;
+}
+.prev:hover {
+  color: white;
+}

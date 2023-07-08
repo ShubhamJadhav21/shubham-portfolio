@@ -1,0 +1,81 @@
+.wrapper_form {
+  margin: 5rem 0 0 2rem;
+  padding: 1rem;
+  margin-left: -2rem;
+}
+.wrapper_all {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4rem;
+}
+.container {
+  display: flex;
+  border-radius: 1.5rem;
+  background-color: aqua;
+  width: fit-content;
+}
+.contact_icons {
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  width: 4rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: center;
+}
+.github {
+  font-size: 2rem;
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  color: white;
+  transition: 300ms ease-in-out;
+}
+.wrapper_github,
+.wrapper_map,
+.wrapper_linkdin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  height: 2.2rem;
+  width: 2.2rem;
+  background-color: #80618c;
+  padding: 0.5rem;
+}
+.map {
+  font-size: 1.5rem;
+  color: white;
+  transition: 300ms ease-in-out;
+}
+.wrapper_github:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  background-color: #212121;
+}
+.wrapper_linkdin:hover {
+  transform: scale(1.15);
+  cursor: pointer;
+  background-color: #212121;
+}
+.wrapper_map:hover {
+  transform: scale(1.15);
+  background-color: #212121;
+
+  cursor: pointer;
+}
+.linkdin {
+  font-size: 2rem;
+  background-color: white;
+  transition: 300ms ease-in-out;
+}
+.contact_heading {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+

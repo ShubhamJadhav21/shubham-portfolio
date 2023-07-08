@@ -1,0 +1,59 @@
+.input_fields {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  gap: 3rem;
+}
+.name {
+  width: 25rem;
+}
+.email {
+  width: 25rem;
+}
+.textarea {
+  width: 25rem;
+}
+.btn_submit {
+  background-color: #80618c;
+  color: white;
+  width: 8rem;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: large;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: 300ms ease-in-out;
+}
+.btn_submit:hover {
+  cursor: pointer;
+  transform: scale(1);
+  background-color: #212121;
+}
+.send_icon {
+  font-size: 1.5rem;
+  transform: rotate(-30deg);
+  margin-top: -5px;
+}
+@media screen and (max-width: 600px) {
+  .name,
+  .email,
+  .textarea {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 380px) {
+  .name,
+  .email,
+  .textarea {
+    width: 10rem;
+  }
+}
+@media screen and (max-width: 360px) {
+  .name,
+  .email,
+  .textarea {
+    width: 6rem;
+  }
+}

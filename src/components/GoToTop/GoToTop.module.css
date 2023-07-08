@@ -1,0 +1,41 @@
+.GoToTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  background-color: blueviolet;
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 5rem;
+  right: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.top_btn {
+  font-size: 1.4rem;
+  animation: top_btn 1.2s linear infinite alternate-reverse;
+}
+@keyframes top_btn {
+  0% {
+    transform: translateY(-0.3rem);
+  }
+  100% {
+    transform: translateY(0.2rem);
+  }
+}
+@media screen  and (max-width:680px) and (min-width:640px){
+  .top_btn{
+    font-size:1.5rem;
+
+  }
+  .GoToTop{
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+  
+}
