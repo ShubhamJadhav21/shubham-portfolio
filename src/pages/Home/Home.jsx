@@ -5,7 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 import Navbar from "../../components/Navbar/Navbar";
 import { Data } from "../../Data/Data";
 import { Link as ScrollLink } from "react-scroll";
-import personalResume from '../../assets/personalResume.pdf'
+import ShubhamResume from '../../assets/ShubhamResume.pdf'
 import shubham from '../../assets/shubham.png'
 
 const Home = () => {
@@ -62,7 +62,7 @@ const Home = () => {
               </p>
               <button
                 className={style.btn}
-                onClick={() => window.open(personalResume)}
+                onClick={() => window.open(ShubhamResume)}
               >
                 Download CV
               </button>
